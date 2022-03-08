@@ -1,0 +1,28 @@
+{
+  "name": "myblog",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.26.0",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.9.1",
+    "less": "^4.1.2",
+    "mockjs": "^1.1.0",
+    "three": "^0.138.2",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.0.2",
+    "wangeditor": "^4.7.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "unplugin-vue-components": "^0.17.21",
+    "vite": "^2.8.0"
+  }
+}
