@@ -1,6 +1,6 @@
 <template>
     <div id="scene">
-        <div class="fix">鼠标上下滚动</div>
+        <div class="fix">鼠标上下滚动查看</div>
     </div>
 </template>
 <script setup>
