@@ -1,3 +1,8 @@
+git add .
+git branch master
+git commit -m '更新说明 '
+git remote add origin git@github.com:ljhym/myblog.git
+
 ls ~/.ssh
 id_rsa.pub
 cd ~/.ssh
@@ -7,7 +12,14 @@ cat id_rsa.pub
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKVgt5EtVkyx8YX3ZoPW/kLPD2a42B3yBHP0+tpX83Ze7gSX8qgsJfcgqmmqCs/QEqRXpBdfC6QZtpXVU3BA9j4mpmdhMV5RBmxqEE/94vKiY/rDo+45XQ/qgon08ZK4ljnyqFRKrM6vB+9rnRl+mJynkdxuUdlnQ8Isa5USt3NqeF1PnF9se/owvL7Mytvip1943fOC5qxsrWIFg/JXsDJc8M7DdDt38WUNzbF6c+pKAYXH63/5IyVlWMmshz23lpalQqmtO9r6VB4g63Pmt7Gr00+U9HIcd2I7VE4M2VgXH97JeKwFpzzxxG+slfO5VI1JPE9kcwTyN7fsg71R5l Administrator@USER-20220129NZ
 
-
 右上角小头像->Setting->SSH and GPG keys中，点击new SSH key。
 Title：可以随便填写，但最好起的名字能让自己知道这个公钥是哪个设备的。
 Key：将上面生成的.pub文件中的所有内容复制到这里。
+
+分支名 == master20220308
+git branch master20220308
+git checkout master20220308
+git add .
+git commit -m '更新说明 '
+git remote add origin git@github.com:ljhym/myblog.git
+git push -u origin master20220308
